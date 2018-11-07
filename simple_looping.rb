@@ -56,3 +56,6 @@ def for_iterator(number_of_times)
     puts phrase
   end
 end
+
+## before(:each) allows you to set up a variable that you want to test multiple times....
+# Useful especially if you're doing MULTIPLE tests for the same value
